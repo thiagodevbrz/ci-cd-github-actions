@@ -6,9 +6,6 @@ on:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        goVersion: [1.14, 1.15]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-go@v2
