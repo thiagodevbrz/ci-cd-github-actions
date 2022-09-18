@@ -54,4 +54,4 @@ jobs:
             --deployment-group-name ci-cd-deployment-group \
             --deployment-config-name CodeDeployDefault.OneAtATime \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }} \
-            --ignore-application-stop-failures=true
+            --ignore-application-stop-failures
