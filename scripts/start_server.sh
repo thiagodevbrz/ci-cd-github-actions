@@ -1,4 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/app/
-source environment/bin/activate
-supervisord -c supervisord.conf
+cd /home/ec2-user/ci-cd-github-actions/
+go run main.go
